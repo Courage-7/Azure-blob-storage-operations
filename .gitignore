@@ -1,0 +1,60 @@
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Project specific
+container_contents/
+container_stats/
+output/
+blobs/
+logs/
+*.log
+stats_history/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Virtual Environment
+venv/
+ENV/
+.env/
+.venv/
+
+# Azure specific
+*.publishsettings
+PublishScripts/
+*.pfx
+*.azurePubxml
+azure_credentials.json
+*.azureauth
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
